@@ -1,0 +1,15 @@
+# TP-Link Smart Plug Controller (Kasa + Tapo)
+# Core API dependencies
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncpg
+pydantic-settings
+python-dotenv
+
+# Tapo protocol dependencies
+cryptography
+requests
+
+# Optional dev dependencies
+# pytest
